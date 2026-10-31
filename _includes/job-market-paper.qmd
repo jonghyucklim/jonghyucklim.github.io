@@ -1,0 +1,15 @@
+<!-- Shared by Home and Research. Source: the supplied October 29, 2026 draft. -->
+### Reverse Engineering a Soft Landing {.paper-title .unnumbered}
+
+With Neville Francis and Michael T. Owyang.
+
+<details class="paper-abstract">
+<summary>Abstract</summary>
+
+::: {.muted}
+Abstract forthcoming.
+:::
+
+</details>
+
+[Full paper (PDF)](pdfs/job-market-paper.pdf)
