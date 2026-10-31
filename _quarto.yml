@@ -32,8 +32,6 @@ website:
         text: Research
       - href: cv.qmd
         text: CV
-      - href: teaching.qmd
-        text: Teaching
   page-footer:
     center: "Department of Economics · UNC–Chapel Hill"
 
