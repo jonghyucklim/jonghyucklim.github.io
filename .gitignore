@@ -1,0 +1,9 @@
+/.quarto/
+/_site/
+/.tools/
+/.qa/
+/.sites-runtime/
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb

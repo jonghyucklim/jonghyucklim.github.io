@@ -1,0 +1,19 @@
+---
+title: "Curriculum Vitae"
+description-meta: "Curriculum vitae of Jonghyuck Lim, Ph.D. candidate in Economics at UNC–Chapel Hill."
+---
+
+[Download CV (PDF)](pdfs/jonghyuck-lim-cv.pdf)
+
+## Education
+
+**University of North Carolina at Chapel Hill**\
+Ph.D. in Economics, expected May 2027
+
+**Seoul National University**\
+M.S. in Industrial Engineering, August 2011\
+B.S. in Industrial Engineering, August 2009
+
+## Research fields
+
+Macroeconomics, Monetary Economics, Applied Econometrics.

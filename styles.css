@@ -1,0 +1,251 @@
+/* Shared palette and type. No external fonts or custom JavaScript required. */
+:root {
+  --academic-navy: #142d4e;
+  --academic-ink: #272c33;
+  --academic-muted: #606975;
+  --academic-rule: #e2e6eb;
+  --bs-body-bg: #fff;
+  --bs-body-color: var(--academic-ink);
+  --bs-link-color: var(--academic-navy);
+  --bs-link-hover-color: #274f7a;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: #fff;
+  color: var(--academic-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* A quiet top navigation with a visible current-page indicator. */
+#quarto-header {
+  border-bottom: 1px solid var(--academic-rule);
+  background: #fff;
+}
+
+.navbar {
+  padding: 1rem 1.5rem;
+  background: #fff !important;
+}
+
+.navbar > .container-fluid {
+  max-width: 980px;
+  margin-inline: auto;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+  color: var(--academic-navy);
+}
+
+.navbar-brand:hover {
+  color: var(--academic-navy);
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+
+.navbar .nav-link {
+  color: var(--academic-ink);
+  font-size: 0.9375rem;
+  padding: 0.4rem 0 !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--academic-navy);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.45em;
+}
+
+.navbar-toggler {
+  border: 1px solid var(--academic-rule);
+  border-radius: 2px;
+  padding: 0.65rem;
+}
+
+/* One readable column, with space between academic sections. */
+#quarto-content main.content {
+  padding-top: 3.25rem;
+  padding-bottom: 4rem;
+}
+
+#title-block-header {
+  margin-bottom: 1.25rem;
+}
+
+h1, h2, h3 {
+  color: var(--academic-navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1.title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding: 0;
+  border-bottom: 0;
+}
+
+h3, .paper-title {
+  font-size: 1.2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.65rem;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+a {
+  color: var(--academic-navy);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  color: #274f7a;
+}
+
+a:focus-visible,
+button:focus-visible,
+.paper-abstract summary:focus-visible {
+  outline: 2px solid var(--academic-navy);
+  outline-offset: 4px;
+}
+
+/* Native disclosure controls show abstracts in place, without scripts. */
+.paper-abstract {
+  margin-bottom: 1.15rem;
+}
+
+.paper-abstract summary {
+  width: fit-content;
+  color: var(--academic-navy);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.paper-abstract summary:hover {
+  color: #274f7a;
+}
+
+.paper-abstract[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.affiliation {
+  color: var(--academic-muted);
+  margin-bottom: 1.75rem;
+}
+
+/* Keep the portrait at its original proportions beside the introduction. */
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-photo .headshot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-links {
+  margin-top: 1.5rem;
+}
+
+.profile-links p {
+  margin-bottom: 0.5rem;
+}
+
+.muted,
+.availability {
+  color: var(--academic-muted);
+}
+
+.availability {
+  font-size: 0.9375rem;
+}
+
+.nav-footer {
+  border-top: 1px solid var(--academic-rule);
+  color: var(--academic-muted);
+  font-size: 0.875rem;
+  padding: 1.25rem 1.5rem;
+}
+
+/* Remove Quarto/Bootstrap motion, including the mobile-menu transition. */
+*, *::before, *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+
+@media (max-width: 767.98px) {
+  .home-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .home-photo {
+    grid-row: 1;
+    width: 160px;
+    max-width: 100%;
+  }
+
+  .navbar {
+    padding: 0.8rem 1.25rem;
+  }
+
+  .navbar-nav {
+    gap: 0;
+    padding-top: 0.75rem;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .navbar .nav-link {
+    padding: 0.65rem 0 !important;
+  }
+
+  #quarto-content main.content {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
+  h1.title {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+}

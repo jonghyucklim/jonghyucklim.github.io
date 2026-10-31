@@ -1,0 +1,33 @@
+---
+title: "Jonghyuck Lim"
+pagetitle: "Jonghyuck Lim | Economics"
+title-block-banner: false
+description-meta: "Jonghyuck Lim, Ph.D. candidate in Economics at UNC–Chapel Hill. Expected graduation: May 2027."
+---
+
+:::: {.home-intro}
+::: {.home-bio}
+::: {.affiliation}
+Ph.D. Candidate in Economics\
+University of North Carolina at Chapel Hill
+:::
+
+I am a Ph.D. candidate in Economics at UNC–Chapel Hill, expecting to graduate in May 2027. My research interests are empirical macroeconomics, inflation expectations, monetary policy, and macroeconometrics.
+
+::: {.profile-links}
+[Curriculum vitae](cv.qmd)
+:::
+
+[jlim@unc.edu](mailto:jlim@unc.edu)
+:::
+
+::: {.home-photo}
+<img src="images/headshot_f.png" alt="Jonghyuck Lim" width="1024" height="1536" class="headshot">
+:::
+::::
+
+## Job-market paper
+
+{{< include _includes/job-market-paper.qmd >}}
+
+[More research](research.qmd)

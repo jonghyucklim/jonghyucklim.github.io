@@ -1,0 +1,24 @@
+---
+title: "Teaching"
+description-meta: "Teaching experience and materials for Jonghyuck Lim."
+---
+
+## Teaching experience
+
+::: {.muted}
+Course, role, and semester details forthcoming.
+:::
+
+<!-- Replace the placeholder above with verified teaching appointments. Example format:
+**Course title** — Teaching assistant, Institution, Semester Year.
+Do not list appointments until their details are confirmed.
+-->
+
+## Teaching materials {#teaching-materials}
+
+<!-- Once supplied, change the target to pdfs/teaching/syllabus.pdf and the label to Syllabus (PDF). -->
+[Syllabus (forthcoming)](#materials-availability)
+
+::: {#materials-availability .availability}
+Teaching materials will be added here when available.
+:::

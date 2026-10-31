@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - cv.qmd
+    - teaching.qmd
+  resources:
+    - pdfs/**
+    - images/**
+    - "!pdfs/README.md"
+    - "!images/README.md"
+    - "!.tools/**"
+    - "!.qa/**"
+
+website:
+  title: "Jonghyuck Lim"
+  description: "Jonghyuck Lim, Ph.D. candidate in Economics at UNC–Chapel Hill. Empirical macroeconomics, inflation expectations, monetary policy, and macroeconometrics. Expected graduation: May 2027."
+  site-url: https://jonghyucklim.github.io
+  favicon: images/favicon.svg
+  search: false
+  navbar:
+    background: white
+    foreground: "#142d4e"
+    pinned: false
+    collapse-below: md
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: teaching.qmd
+        text: Teaching
+  page-footer:
+    center: "Department of Economics · UNC–Chapel Hill"
+
+format:
+  html:
+    title-prefix: ""
+    theme: default
+    css: styles.css
+    lang: en
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    link-external-newwindow: false
+    grid:
+      body-width: 780px
+      sidebar-width: 0px
+      margin-width: 0px
+      gutter-width: 1.5rem

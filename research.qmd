@@ -1,0 +1,27 @@
+---
+title: "Research"
+description-meta: "Research and job-market paper by Jonghyuck Lim, Ph.D. candidate in Economics at UNC–Chapel Hill."
+---
+
+My research interests are empirical macroeconomics, inflation expectations, monetary policy, and macroeconometrics.
+
+## Job-market paper
+
+{{< include _includes/job-market-paper.qmd >}}
+
+## Publications
+
+### Understanding the Distribution of Inflation Expectations {.paper-title .unnumbered}
+
+With Julie Bennett, Neville Francis, Brooke Hathhorn, and Michael T. Owyang.
+
+*Federal Reserve Bank of St. Louis Review*, 108(10), 1–19, 2026.
+
+<details class="paper-abstract">
+<summary>Abstract</summary>
+
+{{< include _includes/abstracts/inflation-expectations.qmd >}}
+
+</details>
+
+[Published article](https://www.stlouisfed.org/publications/review/2026/aug/understanding-distribution-of-inflation-expectations) · [Full paper (PDF)](https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/publications/review/pdfs/2026/aug/understanding-distribution-of-inflation-expectations.pdf)
